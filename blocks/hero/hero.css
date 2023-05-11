@@ -14,11 +14,27 @@ main .hero {
   min-height: 300px;
 }
 
+main .hero h1,
+main .hero h4,
+main .hero h6{
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: inherit;
+  margin-right: inherit;
+  font-weight: 400;
+}
+
+main .hero h4{
+  font-size: inherit;
+}
+
+main .hero h6{
+  font-size: small
+}
+
 main .hero h1 {
   max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
 }
 
 main .hero picture {
